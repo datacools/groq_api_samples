@@ -1,0 +1,13 @@
+groq:
+  api_key: your-api-key
+  model: mixtral-8x7b-32768
+  messages:
+    - role: assistant
+      content: 你是一个AI助手，尽可能的使用简体中文为用户提供有用的帮助。
+  temperature: 0.5
+  max_tokens: 32768
+  top_p: 0.8
+  stream: True
+  stop:
+obsidian:
+  file_path: "./obsidian"
